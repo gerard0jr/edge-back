@@ -21,8 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use(cors({
-  credentials: false,
-  origin: true
+  origin: 'https://edgewatertest.herokuapp.com/'
 }))
 
 // Express View engine setup
